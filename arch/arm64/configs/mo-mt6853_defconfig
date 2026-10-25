@@ -5198,7 +5198,7 @@ CONFIG_KSU_SUSFS=y
 #
 
 #
-# ReSukiSU will check EVERY hooks in kernel compile process
+# BakaSU will check EVERY hooks in kernel compile process
 #
 
 #
