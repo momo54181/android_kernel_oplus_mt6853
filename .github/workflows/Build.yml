@@ -81,17 +81,18 @@ jobs:
 
 
     # ==========================
-    # Setup ReSukiSU
+    # Setup BakaSU
     # ==========================
-    - name: Update ReSukiSU
+    - name: Update BakaSU
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel
 
         rm -rf KernelSU
-
+        rm -rf NoMount
         curl -LSs \
-          https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/main/kernel/setup.sh \
+          https://raw.githubusercontent.com/Baka-SU/BakaSU/main/kernel/setup.sh \
           | bash
+        curl https://raw.githubusercontent.com/maxsteeel/nomount/refs/heads/dev/kernel/setup.sh | bash 
 
 
 
@@ -465,7 +466,7 @@ jobs:
           ```
           Android 12
           MT6853
-          ReSukiSU
+          BakaSU
           ```
 
 
