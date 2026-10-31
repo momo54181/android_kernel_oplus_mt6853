@@ -3,15 +3,14 @@
 ![Kernel Version](https://img.shields.io/badge/Kernel-4.14.357-blue.svg)
 ![Android Version](https://img.shields.io/badge/Android-12-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-MediaTek%20MT6853-orange.svg)
-![Build](https://img.shields.io/github/actions/workflow/status/momo54181/android_kernel_oplus_mt6853/build.yml)
 
 ---
 
-这是一个针对 **OPPO / Realme (MediaTek MT6853 / Dimensity 720)** 平台打造的 Android 12 Linux 4.14 内核源码仓库。
+这是一个针对 **OPPO / Realme (MediaTek MT6853)** 平台打造的 Android 12 Linux 4.14 内核源码仓库。
 
-本项目基于 OPlus 官方内核源码进行维护，并集成：
+本项目基于 官方内核源码进行维护，并集成：
 
-- ReSukiSU 内核ROOT
+- BakaSU 内核ROOT
 - GitHub Actions 自动化 CI/CD
 - AnyKernel3 自动刷包生成
 
@@ -21,7 +20,6 @@
 
 # 📱 支持设备
 
-本内核采用通用 OPPO/Realme MT6853 平台配置：
 
 ## OPPO
 
@@ -48,18 +46,18 @@
 
 # ✨ Features
 
-## 🔧 ReSukiSU
+## 🔧 BakaSU
 
 内置：
 
-- **ReSukiSU Kernel Integration**
+- **BakaSU Kernel Integration**
 
 无需手动 Patch 内核，即可获得内核级权限管理能力。
 
 
 项目地址：
 
-https://github.com/ReSukiSU/ReSukiSU
+[https://github.com/BakaSU/BakaSU](https://bakasu.org/)
 
 
 ---
